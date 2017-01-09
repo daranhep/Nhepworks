@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/51057965-ebc6-4815-8b4d-587a6892076c.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+	<link rel="stylesheet" href="css/normalize.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
+	<title> NhepWorks </title>
+</head>
+
+<body>
+	<header class="header wrap-h clone headroom headroom--top headroom--not-bottom">
+		<a href="http://nhepworks.com" class="wing-logo ui-sb" title="Home">
+			<span class="left ui-sb ui-sa animate"></span>
+			<span class="right ui-sb ui-sa animate"></span>
+		</a>
+		<nav role="navigation">
+			<ul class="main-nav">
+				<li>
+					<a href="index.html">Profile</a>
+				</li>
+				<li>
+					<a href="work.html">Work</a>
+				</li>
+				<li>
+					<a href="contact.html">Blog</a>
+				</li>
+				<li>
+					<a class="active" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+	</header>
+	<div class="animsition">
+		<div class="poster contact unified">
+			<header class="header wrap-h">
+				<a href="http://nhepworks.com" class="wing-logo" title="Home"></a>
+				<nav role="navigation">
+					<ul class="main-nav">
+						<li>
+							<a href="index.html">Profile</a>
+						</li>
+						<li>
+							<a href="work.html">Work</a>
+						</li>
+						<li>
+							<a href="work.html">Blog</a>
+						</li>
+						<li>
+							<a class="active" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="clearfix">
+				</div>
+			</header>
+			<div class="wrap">
+				<div class="teaser">
+					<h1 class="h-massive">Let's talk.</h1>
+					<p class="tease blue">
+						If you have a project in mind or are simply interested in finding out more, get in touch and let's get things moving.
+					</p>
+				</div>
+				<div class="vcard">
+					<div class="adr work">
+						<div class="street-address">2040 Ridge Dr.</div>
+						<span class="postal-code">St. Louis Park</span> ,
+						<span class="locality">MN</span>
+						<span class="country-name">55379</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-bar">
+			<div class="wrap">
+				<a class="active no-animsition" id="inquiry">
+						Service Inquiry
+					</a>
+				<a class="no-animsition" id="hey">
+						Say Hello
+					</a>
+			</div>
+		</div>
+		<div class="spline white">
+			<div class="wrap">
+				<main class="g g-2 p-r contact-switcher">
+					<fieldset id="contact_form">
+						<h2 class="h-med">Let's work together.</h2>
+						<div class="row">
+							<span class="leading s-1">Hi, my name is</span>
+							<input type="text" required name="name" id="name" placeholder="Full Name" class="input-w-1 handler">
+							<span class="s-2">and I'm with</span>
+							<input type="text" name="org" placeholder="Your Organization" class="input-w-1 handler">
+						</div>
+						<div class="row">
+							<textarea name="message" required id="message" placeholder="How can I help you?" rows="1" class="handler"></textarea>
+						</div>
+						<div class="row">
+							<div class="select-style g g-1 p-r ui-sa">
+								<select id="budget" class="placeholder">
+										<option selected disabled hidden value="Not Set">Your Budget</option>
+										<option value="$4,000 - $6,000">$4,000 - $6,000</option>
+										<option value="$6,000 - $10,000">$6,000 - $10,000</option>
+										<option value="$10,000 - $20,000">$10,000 - $20,000</option>
+										<option value="$20,000 or more">$20,000 or more</option>
+										<option value="Not sure">Not sure yet</option>
+									</select>
+							</div>
+							<div class="select-style g g-1 ui-sa">
+								<select id="timeline" name="timeline" class="placeholder">
+										<option selected disabled hidden value="Not Set">Timeline</option>
+										<option value="Flexible">Flexible</option>
+										<option value="2 weeks">2 weeks</option>
+										<option value="2-4 weeks">2-4 weeks</option>
+										<option value="2 months">2 months</option>
+										<option value="3 or more months">3 or more months</option>
+									</select>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="row">
+							<span class="leading s-3">You can reach me at</span>
+							<input type="email" required name="email" id="email" placeholder="Email Address" class="input-w-2 handler">
+						</div>
+						<button class="button blue arrow" id="submit_btn">Send Inquiry</button>
+					</fieldset>
+					<fieldset id="hello_form">
+						<h2 class="h-med">Just want to tell me something?</h2>
+
+						<div class="row">
+							<span class="leading s-1">Hi, my name is</span>
+							<input type="text" name="name-hello" id="name-hello" placeholder="Full Name" class="handler input-w-3">
+						</div>
+
+						<div class="row">
+							<textarea name="message-hello" id="message-hello" placeholder="How can I help you?" class="handler" rows="1"></textarea>
+						</div>
+
+						<div class="row">
+							<span class="leading s-3">You can reach me at</span>
+							<input type="email" name="email-hello" id="email-hello" placeholder="Email Address" class="input-w-2 handler">
+						</div>
+
+						<button class="button blue arrow" id="submit_btn_hello">Send Message</button>
+					</fieldset>
+					<div id="result" class="hidden out" style>
+						<h2 class="h-med">Thanks for your Message!</h2>
+						<p>I will repoly within the coming two days.</p>
+						<img src="http://ivomynttinen.com/assets/images/contact/stamp.png" class="stamp">
+					</div>
+				</main>
+				<aside class="contact-sidebar g g-1 r-none">
+					<div>
+						<h3 class="h-space line">
+								Find me elsewhere
+							</h3>
+						<ul class="icon-list links">
+							<li class="icon twitter">
+								<a href="https://twitter.com" target="_blank" title="Follow me on twitter">Twitter</a>
+							</li>
+							<li class="icon facebook">
+								<a href="https://facebook.com">Facebook</a>
+							</li>
+							<li class="icon dribble">
+								<a href="https://github.com">Github</a>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+				</aside>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<footer class="footer ui-sa">
+			<div class="wrap">
+				<nav role="navigation">
+					<ul class="sitemap">
+						<li><a href="index.html">Profile</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="work.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<span class="social">
+						You should check me out on
+						<a href="https://github.com/daranhep">Github</a>
+						,
+						<a href="https://dribble.com/daranhep">Dribble</a>
+						 or
+						<a href="https://facebook.com/nhepworks">Facebook</a>
+						.
+					</span>
+				<span class="copyright">Copyright 2016 by Nhepworks</span>
+			</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="contact.js"></script>
+	<script src="application.js"></script>
+</body>
+
+</html>

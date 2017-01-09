@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+.container-fluid.poster {
+	background-image: url(../images/poster.jpg);
+	background-size: cover;
+
+}
+
+.poster {
+	border: 10px solid #FFF;
+}
+
+h1 {
+	font-size: 200px;
+}
